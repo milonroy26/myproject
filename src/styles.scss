@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+.formBox{
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+}
+.navbar-nav{
+    display: inline;
+}
+.navbar-nav li{
+    display: inline-block;
+}
+.navbar-nav li a{
+    margin-left: 10px;
+}

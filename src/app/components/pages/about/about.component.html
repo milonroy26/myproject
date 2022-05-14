@@ -1,0 +1,18 @@
+<div class="formBox shadow w-75 rounded">
+    <div class="border-bottom">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/about">About</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="AboutMe mt-4" *ngFor="let data of informations">
+        <h6>Name: {{data.name}} </h6>
+        <h6>Email: {{data.email}} </h6>
+        <h6>Password: {{data.password}} </h6>
+    </div>
+</div>
